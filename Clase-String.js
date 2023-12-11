@@ -12,4 +12,3 @@ console.log(direccionCompleta)
 
 //2. Segunda Concatenacion 
 const nombre ='Manuel'
-const pais 
