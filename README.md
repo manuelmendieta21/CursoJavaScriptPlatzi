@@ -1,2 +1,0 @@
-# CursoJavaScriptPlatzi
-Javascript course learning

@@ -1,0 +1,32 @@
+º<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Vidas">
+    <h1 id="introduccion">Numero de Vidas:</h1><h2 id="vida"></h2>
+    </div>
+    <div>
+        <form class="LetrasIngresada">
+            <label for="letra" id="letraIngresada">Ingresa la letras adivinar:</label>
+            <br>
+            <br>
+            <input type="text" onkeypress="return 'abcdefghijklmnñopqrstuvwxyz'.includes(event.key)"  id="letra" required minlength="1" maxlength="1" size="8">
+            <br>
+            <br>
+            <button type="button" onclick="validarLetra()" >Validar Letra</button>
+        </form>
+    </div>
+    <div>
+        <h1 id="complete">-</h1>
+    </div>
+    <div>
+        <h1 id="ganaste"></h1>
+    </div>
+</body>
+<script src="./Game-Oculto.js"></script>
+<script src="./celebration.js"></script>
+</html>
